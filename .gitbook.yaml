@@ -1,5 +1,0 @@
-title: "My Project Docs"
-root: docs/index.md
-structure:
-  readme: docs/index.md
-  summary: docs/SUMMARY.md

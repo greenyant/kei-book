@@ -1,16 +1,26 @@
-# Node rules:
-## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
+# Python 기본
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+*.venv
+venv/
+env/
 
-## Dependency directory
-## Commenting this out is preferred by some people, see
-## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
-node_modules
+# MkDocs 빌드 결과 (정적 사이트)
+site/
 
-# Book build output
-_book
+# 운영체제별 임시 파일
+.DS_Store
+Thumbs.db
 
-# eBook build output
-*.epub
-*.mobi
-*.pdf
+# 에디터별 설정 파일
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 기타 임시 파일
+*.log
